@@ -1,0 +1,1 @@
+This is the first certification project on FreeCodeCamp's Responsive Web Design course. It asks participants about their coding journey. I followed a tutorial from Dors Coding School on YouTube and made a few creative liberaties of my own. I also got help from Chat GPT for some troubleshooting. 
