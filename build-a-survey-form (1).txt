@@ -1,0 +1,249 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <body>
+       <title>Jenny's coding survey :D</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta charset="UTF-8">
+       <link rel="stylesheet" href="styles.css">
+       
+ 
+ <h1 id="title">Coding Survey</h1>
+ <p id="description">The purpose of this survey is to find out more about people and what motivates them to code! Please let me know your thoughts. Cheers :)</p> 
+ <form action="" id="survey-form">
+   <div class="form-div">
+   <label id="name-label">Name</label>  <input id="name" type="text" name="name" placeholder="Enter your name" required>
+   </div>
+   <div class="form-div">
+     <label id="email-label">E-mail</label> <input id="email" type="email" name="email" placeholder="Enter your email" required>
+     </div>
+       <div class="form-div">
+       <label id="number-label">Age (optional)</label> <input id="number" type="number" name="number" min="10" max="120" placeholder="Age">
+       </div> 
+         <div class="form-div">
+         <label id="label-radio">Sex:</label>
+         </div>
+       <div class="form-div">
+         <label id="male"> <input type="radio" value="male" name="sex">Male</label> 
+         </div>
+         <div class="form-div">
+         <label id="female"> <input type="radio" value="female" name="sex">Female</label> 
+         </div>
+         <div class="form-div">
+         <label id="other"> <input type="radio" value="other" name="sex">Other</label> 
+         </div>
+       
+       <div class="form-div">
+       <label id="dropdown-label-reason">What is your main reason for learning to code?</label>
+         <select id="dropdown" name="dropdown-reason">
+      <option value="1">Change my career</option> 
+      <option value="2">Job flexibility</option> 
+      <option value="3">Job security</option>
+      <option value="4">Education / coursework</option>
+      <option value="5">Get a new skill</option>
+      <option value="6">For fun / hobby</option>
+      <option value="7">Other</option> 
+
+         </select>
+       </div>
+
+    <div class="form-div">
+       <label id="dropdown-label-role">What kind of coding are you most drawn to?</label>
+         <select id="dropdown" name="dropdown-role">
+      <option value="1">Front-end</option> 
+      <option value="2">Back-end</option> 
+      <option value="3">Full-stack</option>
+      <option value="4">Unsure</option>
+
+         </select>
+       </div>
+       <div class="form-div">
+         <label id="label-radio">How many hours per week do you learn to code?</label>
+         </div>
+       <div class="form-div">
+         <label id="lessthan5"> <input type="radio" value="lessthan5" name="time">Less than 5 hours</label> 
+         </div>
+         <div class="form-div">
+         <label id="5to10"> <input type="radio" value="5to10" name="time">5 to 10 hours</label> 
+         </div>
+         <div class="form-div">
+         <label id="10to15"> <input type="radio" value="10to15" name="time">10 to 15 hours</label> 
+         </div>
+         <div class="form-div">
+         <label id="16plus"> <input type="radio" value="16plus" name="time">≥ 16 hours</label> 
+         </div>
+         
+ <div class="form-div form-checkbox">
+  <label id="label-checkbox">How are you learning to code? Tick all that apply:</label>
+  </div>
+  <div class="div-checkbox">
+    <input type="checkbox" name="learning" value="1">
+    <label>Books</label>
+  </div>
+  <div class="div-checkbox">
+    <input type="checkbox" name="learning" value="2">
+    <label>Courses</label>
+  </div>
+  <div class="div-checkbox">
+    <input type="checkbox" name="learning" value="3">
+    <label>YouTube</label>
+  </div>
+  <div class="div-checkbox">
+    <input type="checkbox" name="learning" value="4">
+    <label>Exercises (e.g. Leetcode)</label>
+  </div><div class="div-checkbox">
+    <input type="checkbox" name="learning" value="5">
+    <label>Bootcamp</label>
+  </div><div class="div-checkbox">
+    <input type="checkbox" name="learning" value="6">
+    <label>Trade school / community college</label>
+  </div>
+  <div class="div-checkbox">
+    <input type="checkbox" name="learning" value="7">
+    <label>University</label>
+  </div>
+</div>
+<br>
+<div class="form-div">
+  <label id="label-textextra">Is there something you don't like about coding? Or something you are struggling with? Let us know!</label>
+  <textarea name="comments" placeholder="Write your comments here."></textarea>
+  </div>
+  <div class="form-div">
+    <label id="label-submit"></label>
+    <input type="submit" value="submit" id="submit">
+  </div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+   
+
+ </form>
+ <footer>Made with <font color="red">❤</font> by Webwali</footer>
+   </head>
+    </body>   
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    background-image: url("https://wallpapers.com/images/hd/code-binary-code-glow-pattern-5931cubdmyebx3h5.webp");
+    color: #ffffff;
+    font-family: verdana, sans-serif;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: #00FF66; 
+}
+
+#title {
+    text-align: center;
+    font-family: courier;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: calc(100% - 20px);
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+label {
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+    padding-top: 8px;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+#description {
+    text-align: center;
+    font-family: verdana, sans-serif;
+    font-style: italic;
+}
+
+#survey-form {
+    background-color: rgba(181, 51, 138, 0.8);
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    height: 20px;
+    margin-right: 5px;
+    width: 20px;
+}
+
+.form-radio label {
+    margin-left: 5px;
+}
+
+.form-radio, .div-checkbox {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: flex-start;
+    padding-bottom: 5px;
+}
+
+textarea {
+    width: 90%;
+    font-size: 16px; /* Adjust as needed */
+    height: 100px;
+}
+
+.form-div.btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-div input[type="submit"] {
+    width: 90%; 
+    padding: 10px;
+    background-color: #000000; 
+    color: #00FF66;
+    font-family: courier;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+}
+
+
+
+
+** end of undefined **
+
